@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Two Way Data Binding">
+        <lightning-input class="slds-m"
+            label="Enter your name"
+            value={memberNumber}
+            onchange={updateMemberNumber}
+        ></lightning-input>
+        <P>{memberNumber}</P>
+    </lightning-card>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Custom Events Parent">
+        <c-custom-events-child onsendname={handleGetName}></c-custom-events-child>
+        <template if:true={hasdetails}>
+        <div> {userfirstname}</div>
+        <div> {userdob}</div>
+        </template>
+    </lightning-card>
+</template>

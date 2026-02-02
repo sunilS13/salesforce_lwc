@@ -1,0 +1,19 @@
+<template>
+    <!-- <input type="text" onkeyup={inputtyped}/>
+    <div> {fullname} and {title} </div> -->
+    <lightning-card  title="Input">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter some text" onkeyup={inputtyped} ></lightning-input>
+            <!-- <input type="text" onkeyup={inputtyped}/> -->
+            <div> {fullname} and {title} </div>
+        </div>
+    </lightning-card>
+
+    <lightning-card  title="@trackprop">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter some text" onkeyup={citychange}></lightning-input>
+            <!-- <input type="text" onkeyup={inputtyped}/> -->
+            <div> This is my {address.city} </div>
+        </div>
+    </lightning-card>
+</template>

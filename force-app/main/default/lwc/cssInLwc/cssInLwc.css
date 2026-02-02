@@ -1,0 +1,11 @@
+.p{
+   color: black; 
+   font-size: 20px;
+}
+.user{
+    color: aqua;
+    font-size: 10px;
+}
+.live:hover{
+    color: azure;
+}
